@@ -62,6 +62,8 @@
   width: 155px;
   height: 40px;
   border: none;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .basic .price-card__price {
