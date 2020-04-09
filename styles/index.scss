@@ -1,0 +1,21 @@
+@import "variables.scss";
+@import "price-cards.scss";
+@import "card-basic.scss";
+@import "card-business.scss";
+@import "card-webshop.scss";
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: $font-color;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: $table-color;
+}

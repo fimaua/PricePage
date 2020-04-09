@@ -1,0 +1,13 @@
+.basic {
+    .price-card__price {
+        background-color: $first-price-color;
+    }
+}
+
+.basic-img {
+    background-image: url($marker-img-green);
+}
+
+.btn-basic {
+    background-color: $first-btn-color;
+}
