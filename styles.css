@@ -1,3 +1,121 @@
+.price-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F3D63;
+  width: 380px;
+  height: 770px;
+  margin: 0 9px;
+}
+.price-card__title {
+  margin: 33px auto;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 43px;
+}
+.price-card__title p {
+  margin: 0;
+  line-height: 24px;
+  font-size: 20px;
+}
+.price-card__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105px;
+  font-size: 55px;
+  font-weight: bold;
+}
+.price-card__description {
+  margin: 40px 26px;
+  height: 36px;
+  text-align: center;
+}
+.price-card__options-list {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.price-card__options-list__item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.price-card__options-list__item .marker {
+  width: 15px;
+  height: 13px;
+  margin: 0 22px;
+}
+.price-card__options-list__item:nth-child(odd) {
+  background-color: #2A3438;
+}
+.price-card__order {
+  display: flex;
+  margin: 40px 0;
+  justify-content: center;
+}
+.price-card__order-btn {
+  border-radius: 50px;
+  width: 155px;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+}
 
+.basic .price-card__price {
+  background-color: #5BB189;
+}
+
+.basic-img {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+
+.btn-basic {
+  background-color: #5BB189;
+}
+
+.business .price-card__price {
+  background-color: #3A6BA5;
+}
+
+.business-img {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+
+.btn-business {
+  background-color: #3A6BA5;
+}
+
+.webshop .price-card__price {
+  background-color: #EC632A;
+}
+
+.webshop-img {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
+
+.btn-webshop {
+  background-color: #EC632A;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141B1C;
+}
 
 /*# sourceMappingURL=styles.css.map */
